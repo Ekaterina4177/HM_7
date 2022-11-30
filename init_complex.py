@@ -21,5 +21,6 @@ def mult_complex(a, b:complex):  # умножение
     return a * b
 
 
+
 def division_complex(a, b:complex):  # деление
     return a / b

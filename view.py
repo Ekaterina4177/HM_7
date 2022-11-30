@@ -24,9 +24,9 @@ def entering_number_rational():
 
 
 def entering_number_complex():
-    number1 = complex(input('Введите первое число: '))
-    number2 = complex(input('Введите второе число: '))
-    return number1, number2
+        number1 = complex(input('Формат введения первого числа (прим. 0 или 0j): '))
+        number2 = complex(input('Формат введения второго числа (прим. 0 или 0j): '))
+        return number1, number2
 
 
 def get_menu():
