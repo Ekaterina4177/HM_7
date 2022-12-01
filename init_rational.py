@@ -2,24 +2,24 @@ x = 0
 y = 0
 
 
-def init_rational(a, b: float):  # начало
+def init(a, b):  # начало
     global x
     global y
     x = a
     y = b
 
 
-def sum_rational(a, b: float):  # сложение
-    return round(a + b, 4)
+def sum(a, b):  # сложение
+    return a + b
 
 
-def difference_rational(a, b: float):  # вычетание
-    return round(a - b, 4)
+def difference(a, b):  # вычетание
+    return a - b
 
 
-def mult_rational(a, b: float):  # умножение
-    return round(a * b, 4)
+def mult(a, b):  # умножение
+    return a * b
 
 
-def division_rational(a, b):  # деление
-    return round(a / b, 4)
+def division(a, b):  # деление
+    return a / b
